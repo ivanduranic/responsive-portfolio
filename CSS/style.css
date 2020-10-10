@@ -1,0 +1,42 @@
+body {
+    background-color: grey;
+}
+
+.block {
+
+background-color: #fff;
+
+}
+
+#about-image {
+    /* float: left; */
+    width: 350px;
+    height: 350px;
+    margin: 0 20px 10px 0;
+}
+
+main {
+    width: 80%;
+    /* height: 900px; */
+}
+
+#logo {
+    font-family: Georgia, Times, "Times New Roman", serif;
+  
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  
+    /* Visual */
+    background: #4aaaa5;
+  }
+
+  /* .footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: #666;
+      
+  } */
