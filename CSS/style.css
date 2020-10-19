@@ -32,11 +32,12 @@ main {
     background: #4aaaa5;
   }
 
-  /* .footer {
-    position: fixed;
-    height: 100px;
-    bottom: 0;
-    width: 100%;
-    background-color: #666;
-      
-  } */
+  .footer {
+    text-align: center;  
+  }
+  
+  /* position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  background-color: #666; */
