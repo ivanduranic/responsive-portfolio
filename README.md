@@ -1,39 +1,38 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# Responsive Portfolio
 
+This mobile responsive portfolio was created with the Bootstrap CSS Framework. Portfolio site has
+a navbar, responsive layout and responsive images. It is a homework project, created while I'm attending the Web Development Course at UofT School of Continuing Studies.
 
-Dear Trilogy evaluator,
+## Visuals
 
+![about](https://user-images.githubusercontent.com/61889668/96398069-f51dbc80-1198-11eb-9d4d-08ebb4665261.jpg)
+![contact](https://user-images.githubusercontent.com/61889668/96398071-f818ad00-1198-11eb-83c2-ff8090dcf14d.jpg)
+![portfolio](https://user-images.githubusercontent.com/61889668/96398077-f9e27080-1198-11eb-9ba0-b53564e2113e.jpg)
 
-## Actions completed
+## Usage
 
-Using the Bootstrap CSS Framework, I have created a mobile responsive portfolio.
+User will notice following files: `index.html`, `portfolio.html`, `contact.html`, 'CSS' folder containing 'style.css' file, 'Images' folder containing jpg files and README file.
+Link to a deployed application you can find here: https://ivanduranic.github.io/responsive-portfolio/
 
-* Created the following files: `index.html`, `portfolio.html`, `contact.html`, 'CSS' folder containing 'style.css' file, 'Images' folder containing jpg files and README file.
+## Support
 
-* Portfolio site has the following items:
+https://validator.w3.org/ is an excellent source of help when working on your HTML files.
 
-   * A navbar
+## Roadmap
 
-   * A responsive layout
+This portfolio will become even more detailed in the future, with customized design that will fit my personal style and professional needs.
 
-   * Responsive images
+## Contributing
 
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-### Requirements achieved
+## Acknowledgement
 
-* Functional, deployed application through using the Bootstrap's grid system
+My deepest appreciation goes to Mrs Sean Brown-Byfield who has contributed to the project through her expert advices.
 
-* GitHub repository with README describing the project
+## License
 
-* Navbar is consistent on each page.
-
-* Navbar on each page contains working links to Home/About, Contact, and Portfolio pages.
-
-* Semantic html has been used.
-
-* Each page has valid and correct HTML. (used an HTML validator chrome extension to verify)
-
-* My personalized information is displayed. (bio, name, images, links to social media, etc.)
+MIT
 
 
 Respectfully,
