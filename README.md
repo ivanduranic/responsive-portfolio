@@ -1,13 +1,13 @@
 # Responsive Portfolio
 
-This mobile responsive portfolio was created with the Bootstrap CSS Framework. Portfolio site has
+This mobile Responsive Portfolio was created with the Bootstrap CSS Framework. Portfolio site has
 a navbar, responsive layout and responsive images. It is a homework project, created while I'm attending the Web Development Course at UofT School of Continuing Studies.
 
 ## Visuals
 
-![about](https://user-images.githubusercontent.com/61889668/96398069-f51dbc80-1198-11eb-9d4d-08ebb4665261.jpg)
+![port1](https://user-images.githubusercontent.com/61889668/100056880-6550db00-2df4-11eb-8c64-2dac9164d6ba.jpg)
+![port2](https://user-images.githubusercontent.com/61889668/100056890-67b33500-2df4-11eb-9c8d-52cb900bdaf8.jpg)
 ![contact](https://user-images.githubusercontent.com/61889668/96398071-f818ad00-1198-11eb-83c2-ff8090dcf14d.jpg)
-![portfolio](https://user-images.githubusercontent.com/61889668/96398077-f9e27080-1198-11eb-9ba0-b53564e2113e.jpg)
 
 ## Usage
 
