@@ -5,9 +5,9 @@ a navbar, responsive layout and responsive images. It is a homework project, cre
 
 ## Visuals
 
-![port1](https://user-images.githubusercontent.com/61889668/100056880-6550db00-2df4-11eb-8c64-2dac9164d6ba.jpg)
-![port2](https://user-images.githubusercontent.com/61889668/100056890-67b33500-2df4-11eb-9c8d-52cb900bdaf8.jpg)
-![contact](https://user-images.githubusercontent.com/61889668/96398071-f818ad00-1198-11eb-83c2-ff8090dcf14d.jpg)
+![image](https://user-images.githubusercontent.com/61889668/100412596-1f3d8680-3043-11eb-95c6-ae052e5d12d2.png)
+![image](https://user-images.githubusercontent.com/61889668/100412635-33818380-3043-11eb-8096-e9295158e2eb.png)
+![image](https://user-images.githubusercontent.com/61889668/100412651-4005dc00-3043-11eb-8ceb-7ed5e2af3a10.png)
 
 ## Usage
 

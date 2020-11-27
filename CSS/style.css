@@ -1,10 +1,10 @@
 body {
-    background-color:linen;
+    background: url("https://images.unsplash.com/photo-1543157145-f78c636d023d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80");
 }
 
 .block {
 
-background-color: #fff;
+background-color:linen;
 
 }
 
