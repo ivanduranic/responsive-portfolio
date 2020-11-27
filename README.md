@@ -7,7 +7,7 @@ a navbar, responsive layout and responsive images. It is a homework project, cre
 
 ![image](https://user-images.githubusercontent.com/61889668/100412596-1f3d8680-3043-11eb-95c6-ae052e5d12d2.png)
 ![image](https://user-images.githubusercontent.com/61889668/100412635-33818380-3043-11eb-8096-e9295158e2eb.png)
-![image](https://user-images.githubusercontent.com/61889668/100412651-4005dc00-3043-11eb-8ceb-7ed5e2af3a10.png)
+![3rd page](https://user-images.githubusercontent.com/61889668/100413601-cde2c680-3045-11eb-9385-bace93749016.png)
 
 ## Usage
 
