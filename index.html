@@ -1,131 +1,210 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
+    <title>Responsive Portfolio</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- Put stylesheet here -->
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
 
-  <title>Responsive Portfolio</title>
-
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!-- Put stylesheet here -->
-  <link rel="stylesheet" href="CSS/style.css">
-</head>
-
-<body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand" href="index.html" id="logo">Ivan Duranic</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-        </ul>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand" href="index.html" id="logo">Ivan Duranic</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <br><br><br>
-  <!-- End Nav -->
-  <main class="container">
-    <div class="row">
-        <section class="block border border-warning rounded col-md-10 col-sm-10 col-xs-12">
+    <br /><br /><br />
+    <!-- End Nav -->
+    <main class="container">
+      <div class="row">
+        <section
+          class="block border border-warning rounded col-md-10 col-sm-10 col-xs-12"
+        >
           <h2 class="text-info"><strong>About Me</strong></h2>
-          <hr>
-          <img style="float: left" src="Images/ivan.jpg" id="about-image" alt="Placeholder" class="img-thumbnail">
+          <hr />
+          <img
+            style="float: left"
+            src="Images/ivan.jpg"
+            id="about-image"
+            alt="Placeholder"
+            class="img-thumbnail"
+          />
           <span>ivan.duranic@gmail.com</span>
-          <br>
+          <br />
           <span>+1 437 774 6800</span>
 
-          <br><br>
+          <br /><br />
           <ul>
             <li><a href="https://github.com/ivanduranic">GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/ivan-đuranić-65544295">LinkedIn</a></li>
-            <li><a href="https://drive.google.com/file/d/1KuBjmqDqCkNwCQsJDbbsWF_JlGCE70A5/view?usp=sharing">Resume</a>
+            <li>
+              <a href="https://www.linkedin.com/in/ivan-đuranić-65544295"
+                >LinkedIn</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1KuBjmqDqCkNwCQsJDbbsWF_JlGCE70A5/view?usp=sharing"
+                >Resume</a
+              >
             </li>
           </ul>
 
-          <br>
+          <br />
           <p class="text-justify">
-            Full-Stack Web Developer and Croatian Army veteran with extensive experience in training adults. Recently
-            earned a certificate in full stack development from the University of Toronto, with newly developed skills
-            in JavaScript, NodeJS, and responsive web design. Known as a very organized and efficient communicator who
-            successfully led the platoon of soldiers in the ISAF mission in Afghanistan. Passionate about educating and
-            uplifting beginner level students at any area of education. Excited to leverage his skills as part of an
-            optimistic, quality-driven team of instructors to bring the coding knowledge to inquiring minds.
+            Full-Stack Web Developer and Croatian Army veteran with extensive
+            experience in training adults. Recently earned a certificate in full
+            stack development from the University of Toronto, with newly
+            developed skills in JavaScript, NodeJS, and responsive web design.
+            Known as a very organized and efficient communicator who
+            successfully led the platoon of soldiers in the ISAF mission in
+            Afghanistan. Passionate about educating and uplifting beginner level
+            students at any area of education. Excited to leverage his skills as
+            part of an optimistic, quality-driven team of instructors to bring
+            the coding knowledge to inquiring minds.
           </p>
           <p class="text-justify">
-            As a student enrolled in a Web Development bootcamp I was responsible for creating applications as part of
-            my homework regime. Varying from task to task, I was given a time frame, user story and acceptance criteria
-            to design and implement the client side application. My JavaScript based solutions were crucial for an
+            As a student enrolled in a Web Development bootcamp I was
+            responsible for creating applications as part of my homework regime.
+            Varying from task to task, I was given a time frame, user story and
+            acceptance criteria to design and implement the client side
+            application. My JavaScript based solutions were crucial for an
             intuitive and easy-to-navigate user experience.
           </p>
-          <br><br>
+          <br /><br />
           <h5>Date-Night Planner App</h5>
-          <img style="width: 300px; height: 200px;" src="Images/date img.jpg" alt="Input page of the Project">
+          <img
+            style="width: 300px; height: 200px"
+            src="Images/date img.jpg"
+            alt="Input page of the Project"
+          />
           <p class="text-justify">
-            Consolidated a five person team that designed and developed GitHub based application which
-            integrated data received from multiple server-side API requests.
-            <br>
-            Tools used: HTML, CSS, Javascript, JQuery, Materialize, Firebase, MomentJS and MapBox.
+            Consolidated a five person team that designed and developed GitHub
+            based application which integrated data received from multiple
+            server-side API requests.
+            <br />
+            Tools used: HTML, CSS, Javascript, JQuery, Materialize, Firebase,
+            MomentJS and MapBox.
           </p>
           <ul>
-            <li><a href="https://ivanduranic.github.io/date-night-planner/">Link to the deployed app</a></li>
-            <li><a href="https://github.com/ivanduranic/date-night-planner">Link to the GitHub repository</a></li>
+            <li>
+              <a href="https://ivanduranic.github.io/date-night-planner/"
+                >Link to the deployed app</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/ivanduranic/date-night-planner"
+                >Link to the GitHub repository</a
+              >
             </li>
           </ul>
 
-          <br><br>
+          <br /><br />
           <h5>NOVELty App</h5>
-          <img style="width: 300px; height: 200px;" src="Images/screenshot1.png" class="border border-dark" alt="First page of the Code Quiz">
+          <img
+            style="width: 300px; height: 200px"
+            src="Images/screenshot1.png"
+            class="border border-dark"
+            alt="First page of the NOVELty"
+          />
           <p class="text-justify">
-            Accelerated the work of a five person team that developed the Heroku based app which allows users to keep track of
-            the books they read, get personalized recommendations and connect with the like-minded community.
-            <br>
-            Tools used: Node, Express, JavaScript, MySQL, Sequelize, Handlebars, Bootstrap, HTML, CSS, Passport, ORM and APIs
-            (TasteDive, Google books, Open library, The New York Times Books API).
+            Accelerated the work of a five person team that developed the Heroku
+            based app which allows users to keep track of the books they read,
+            get personalized recommendations and connect with the like-minded
+            community.
+            <br />
+            Tools used: Node, Express, JavaScript, MySQL, Sequelize, Handlebars,
+            Bootstrap, HTML, CSS, Passport, ORM and APIs (TasteDive, Google
+            books, Open library, The New York Times Books API).
           </p>
           <ul>
-            <li><a href="https://novelty.herokuapp.com/">Link to the deployed app</a></li>
-            <li><a href="https://github.com/ivanduranic/NOVELty">Link to the GitHub repository</a></li>
+            <li>
+              <a href="https://novelty.herokuapp.com/"
+                >Link to the deployed app</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/ivanduranic/NOVELty"
+                >Link to the GitHub repository</a
+              >
             </li>
           </ul>
 
-          <br><br>
+          <br /><br />
+          <h5>Employee Summary Generator</h5>
+          <img
+            style="width: 300px; height: 200px"
+            src="Images/esg1.png"
+            class="border border-dark"
+            alt="Final page of the employee-summary-generator"
+          />
+          <p class="text-justify">
+            Built the CLI application that allows the user to generate a summary
+            of one’s team members.
+            <br />
+            Tools used: Javascript, NodeJS, Inquirer package, Jest.
+          </p>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/ivanduranic/employee-summary-generator"
+                >Link to the GitHub repository</a
+              >
+            </li>
+          </ul>
 
+          <br /><br />
         </section>
-    </div>
-  </main>
-  <br><br>
+      </div>
+    </main>
+    <br /><br />
 
-  <footer class="footer sticky-bottom">
-    <h6 class="p-3 mb-2 bg-secondary text-muted-50">@Copyright 2020 Ivan Duranic</h6>
-  </footer>
+    <footer class="footer sticky-bottom">
+      <h6 class="p-3 mb-2 bg-secondary text-muted-50">
+        @Copyright 2020 Ivan Duranic
+      </h6>
+    </footer>
 
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-  <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-
-  <!-- Bootstrap JavaScript CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
-
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
