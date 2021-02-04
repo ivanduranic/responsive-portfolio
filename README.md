@@ -32,11 +32,13 @@ My deepest appreciation goes to Mrs Sean Brown-Byfield who has contributed to th
 
 ## License
 
-MIT
+MIT License.
 
+## Questions
 
+Find me on GitHub: github.com/ivanduranic
+<br />
+You can reach me with additional questions on: ivan.duranic@gmail.com
+<br /><br />
 Respectfully,
-
-
-Ivan Duranic
-
+<br /><br />
