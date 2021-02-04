@@ -1,7 +1,21 @@
 # Responsive Portfolio
 
+## Description
+
 This mobile Responsive Portfolio was created with the Bootstrap CSS Framework. Portfolio site has
 a navbar, responsive layout and responsive images. It is a homework project, created while I'm attending the Web Development Course at UofT School of Continuing Studies.
+
+## Table of Contents
+
+- [Description](#description)
+- [Visuals](#visuals)
+- [Usage](#usage)
+- [Support](#support)
+- [Roadmap](#roadmap)
+- [Contributing](#contributing)
+- [Acknowledgement](#acknowledgement)
+- [License](#license)
+- [Questions](#questions)
 
 ## Visuals
 
@@ -42,3 +56,4 @@ You can reach me with additional questions on: ivan.duranic@gmail.com
 <br /><br />
 Respectfully,
 <br /><br />
+Ivan Duranic
