@@ -1,97 +1,114 @@
 <!DOCTYPE html>
 <html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
+    <title>Responsive Portfolio</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- put stylesheet here -->
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
 
-  <title>Responsive Portfolio</title>
-
-  <!-- Bootstrap CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <!-- put stylesheet here -->
-  <link rel="stylesheet" href="CSS/style.css">
-</head>
-
-<body>
-  <!-- Start Nav -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand" href="index.html" id="logo">Ivan Duranic</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-        </ul>
+  <body>
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a class="navbar-brand" href="index.html" id="logo">Ivan Duranic</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <!-- End Nav -->
-  <br><br><br>
+    </nav>
+    <!-- End Nav -->
+    <br /><br /><br />
 
-  <main class="container">
-    <div class="row">
-      <article class="block col-md-8">
+    <main class="container">
+      <div class="row">
+        <article class="block col-md-8">
           <h1 class="text-info"><strong>Contact</strong></h1>
 
-          <hr>
+          <hr />
           <div class="col-md-8">
             <div class="md-form mb-0">
-              <input type="text" id="name" name="name" class="form-control">
+              <input type="text" id="name" name="name" class="form-control" />
               <label for="name" class="">Your name</label>
             </div>
           </div>
           <div class="col-md-8">
             <div class="md-form mb-0">
-              <input type="text" id="email" name="email" class="form-control">
+              <input type="text" id="email" name="email" class="form-control" />
               <label for="email" class="">Your email</label>
             </div>
           </div>
           <div class="col-md-8">
             <div class="md-form">
-              <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+              <textarea
+                type="text"
+                id="message"
+                name="message"
+                rows="2"
+                class="form-control md-textarea"
+              ></textarea>
               <label for="message">Your message</label>
             </div>
           </div>
           <div class="text-center text-md-left">
-            <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Submit</a>
+            <a
+              class="btn btn-primary"
+              onclick="document.getElementById('contact-form').submit();"
+              >Submit</a
+            >
           </div>
           <!-- <div class="status"></div>   -->
-    </article>
-    </div>
-  </main>
-  <br><br><br><br>
+        </article>
+      </div>
+    </main>
+    <br /><br /><br /><br />
 
-  <footer class="footer sticky-bottom">
-    <h6 class="p-3 mb-2 bg-secondary text-muted-50">@Copyright 2020 Ivan Duranic</h6>
-  </footer>
+    <footer class="footer sticky-bottom">
+      <h6 class="p-3 mb-2 bg-secondary text-muted-50">
+        @Copyright 2021 Ivan Duranic
+      </h6>
+    </footer>
 
-  <!-- class="navbar-text col-md-12 col-sm-12 col-xs-12" -->
-  <!-- class="text-center" -->
+    <!-- class="navbar-text col-md-12 col-sm-12 col-xs-12" -->
+    <!-- class="text-center" -->
 
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 
-  <!-- jQuery CDN -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-
-  <!-- Bootstrap JavaScript CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
-
+    <!-- Bootstrap JavaScript CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
 </html>
